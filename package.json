@@ -1,0 +1,23 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LysieSoyez/Discord-Bot.git"
+  },
+  "author": "Lysie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LysieSoyez/Discord-Bot/issues"
+  },
+  "homepage": "https://github.com/LysieSoyez/Discord-Bot#readme",
+  "dependencies": {
+    "discord.js": "^14.9.0",
+    "ytdl-core": "^4.11.3"
+  }
+}
