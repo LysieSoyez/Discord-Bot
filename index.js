@@ -60,3 +60,11 @@ client.on(Events.InteractionCreate, async interaction => {
 	}
 	console.log(interaction);
 });
+// Lorsqu'un utilisateur rejoint le serveur
+client.on('guildMemberAdd', member => {
+	// Récupérer l'URL de l'image de profil de l'utilisateur
+	const userAvatarURL = member.user.displayAvatarURL();
+  
+	// Afficher l'URL de l'image de profil dans la console
+	console.log(`L'utilisateur ${member.displayName} a pour image de profil : ${userAvatarURL}`);
+  });

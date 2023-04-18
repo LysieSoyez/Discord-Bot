@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/LysieSoyez/Discord-Bot#readme",
   "dependencies": {
+    "@napi-rs/canvas": "^0.1.40",
     "discord.js": "^14.9.0",
     "ytdl-core": "^4.11.3"
   }
